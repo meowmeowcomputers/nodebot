@@ -1,19 +1,19 @@
 {
   "name": "nodebot",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Tessel project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meowmeowcomputers/nodebot.git"
-  },
-  "author": "Ryan Leon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/meowmeowcomputers/nodebot/issues"
-  },
-  "homepage": "https://github.com/meowmeowcomputers/nodebot#readme"
+  "repository": "https://github.com/meowmeowcomputers/nodebot.git",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "johnny-five": "^0.11.3",
+    "tessel-io": "^1.0.1"
+  }
 }
